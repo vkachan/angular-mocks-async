@@ -17,6 +17,7 @@
     "karma": "./node_modules/karma/bin/karma start",
     "codecov": "cat coverage/*/lcov.info | ./node_modules/codecov.io/bin/codecov.io.js"
   },
+  "main": "src/angular-mocks-async.js",
   "dependencies": {
     "karma": "^1.3.0 ",
 
